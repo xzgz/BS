@@ -44,7 +44,7 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\..\BrainSuite16a1_vs\$(Configuration)\                    </OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\..\BrainSuite16a1_vs\$(Configuration)\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\..\BrainSuite16a1_vs\$(Platform)\$(Configuration)\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">BrainSuite16a1</TargetName>
     <IgnoreImportLibrary Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</IgnoreImportLibrary>
@@ -74,8 +74,8 @@
       <WarningLevel>Level3</WarningLevel>
     </ClCompile>
     <Link>
-      <AdditionalDependencies>gdi32.lib;user32.lib;$(QTDIR)\lib\qtmain.lib;$(QTDIR)\lib\Qt5Core.lib;opengl32.lib;glu32.lib;zlib_Win32_MD.lib;$(QTDIR)\lib\Qt5OpenGL.lib;$(QTDIR)\lib\Qt5Widgets.lib;$(QTDIR)\lib\Qt5Network.lib;$(QTDIR)\lib\Qt5Gui.lib;$(QTDIR)\lib\Qt5Core.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <AdditionalLibraryDirectories>$(QTDIR)\lib;$(QTDIR)\lib;$(QTDIR)\lib;D:\practice\Software\BrainSuite16a1_src\BrainSuite16a1\..\lib\win32\v120;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>gdi32.lib;user32.lib;$(QTDIR)\lib\qtmain.lib;$(QTDIR)\lib\Qt5Core.lib;opengl32.lib;glu32.lib;zlib_Win32_MD.lib;$(QTDIR)\lib\Qt5OpenGL.lib;$(QTDIR)\lib\Qt5Widgets.lib;$(QTDIR)\lib\Qt5Network.lib;$(QTDIR)\lib\Qt5Gui.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(QTDIR)\lib;..\..\lib\win32\V120;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>"/MANIFESTDEPENDENCY:type='win32' name='Microsoft.Windows.Common-Controls' version='6.0.0.0' publicKeyToken='6595b64144ccf1df' language='*' processorArchitecture='*'" %(AdditionalOptions)</AdditionalOptions>
       <DataExecutionPrevention>true</DataExecutionPrevention>
       <GenerateDebugInformation>false</GenerateDebugInformation>
@@ -117,8 +117,8 @@
       <ProgramDataBaseFileName>$(IntDir)vc$(PlatformToolsetVersion).pdb</ProgramDataBaseFileName>
     </ClCompile>
     <Link>
-      <AdditionalDependencies>gdi32.lib;user32.lib;$(QTDIR)\lib\qtmaind.lib;$(QTDIR)\lib\Qt5Cored.lib;opengl32.lib;glu32.lib;D:\practice\Software\BrainSuite16a1_src\BrainSuite16a1\..\lib\win32\v120\zlib_Win32_MDd.lib;$(QTDIR)\lib\Qt5OpenGLd.lib;$(QTDIR)\lib\Qt5Widgetsd.lib;$(QTDIR)\lib\Qt5Networkd.lib;$(QTDIR)\lib\Qt5Guid.lib;$(QTDIR)\lib\Qt5Cored.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <AdditionalLibraryDirectories>$(QTDIR)\lib;$(QTDIR)\lib;$(QTDIR)\lib;D:\practice\Software\BrainSuite16a1_src\BrainSuite16a1\..\lib\win32\v120;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>gdi32.lib;user32.lib;$(QTDIR)\lib\qtmaind.lib;$(QTDIR)\lib\Qt5Cored.lib;opengl32.lib;glu32.lib;$(QTDIR)\lib\Qt5OpenGLd.lib;$(QTDIR)\lib\Qt5Widgetsd.lib;$(QTDIR)\lib\Qt5Networkd.lib;$(QTDIR)\lib\Qt5Guid.lib;zlib_Win32_MDd.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(QTDIR)\lib;..\..\lib\win32\v120</AdditionalLibraryDirectories>
       <AdditionalOptions>"/MANIFESTDEPENDENCY:type='win32' name='Microsoft.Windows.Common-Controls' version='6.0.0.0' publicKeyToken='6595b64144ccf1df' language='*' processorArchitecture='*'" %(AdditionalOptions)</AdditionalOptions>
       <DataExecutionPrevention>true</DataExecutionPrevention>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -138,6 +138,104 @@
     </ResourceCompile>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\BrainSuite16a1_vs\Debug\moc_aboutbrainsuitedialog.cpp" />
+    <ClCompile Include="..\..\BrainSuite16a1_vs\Debug\moc_bfcthreaddialog.cpp" />
+    <ClCompile Include="..\..\BrainSuite16a1_vs\Debug\moc_biasfieldcorrectionthread.cpp" />
+    <ClCompile Include="..\..\BrainSuite16a1_vs\Debug\moc_brainsuiteinstalldialog.cpp" />
+    <ClCompile Include="..\..\BrainSuite16a1_vs\Debug\moc_brainsuitewindow.cpp" />
+    <ClCompile Include="..\..\BrainSuite16a1_vs\Debug\moc_cerebrumextractiondialog.cpp" />
+    <ClCompile Include="..\..\BrainSuite16a1_vs\Debug\moc_clicklabel.cpp" />
+    <ClCompile Include="..\..\BrainSuite16a1_vs\Debug\moc_colorselectionbutton.cpp" />
+    <ClCompile Include="..\..\BrainSuite16a1_vs\Debug\moc_computeconnectivitythread.cpp" />
+    <ClCompile Include="..\..\BrainSuite16a1_vs\Debug\moc_computeconnectivitythreaddialog.cpp" />
+    <ClCompile Include="..\..\BrainSuite16a1_vs\Debug\moc_connectivityviewdialog.cpp" />
+    <ClCompile Include="..\..\BrainSuite16a1_vs\Debug\moc_consoletext.cpp" />
+    <ClCompile Include="..\..\BrainSuite16a1_vs\Debug\moc_cortexidentificationdialog.cpp" />
+    <ClCompile Include="..\..\BrainSuite16a1_vs\Debug\moc_corticalextractionsequencedialog.cpp" />
+    <ClCompile Include="..\..\BrainSuite16a1_vs\Debug\moc_curvetoolboxform.cpp" />
+    <ClCompile Include="..\..\BrainSuite16a1_vs\Debug\moc_delineationtoolboxform.cpp" />
+    <ClCompile Include="..\..\BrainSuite16a1_vs\Debug\moc_dewispdialog.cpp" />
+    <ClCompile Include="..\..\BrainSuite16a1_vs\Debug\moc_diffusiontoolboxform.cpp" />
+    <ClCompile Include="..\..\BrainSuite16a1_vs\Debug\moc_dsfilelabel.cpp" />
+    <ClCompile Include="..\..\BrainSuite16a1_vs\Debug\moc_dsfilepathbutton.cpp" />
+    <ClCompile Include="..\..\BrainSuite16a1_vs\Debug\moc_dsglviewdialog.cpp" />
+    <ClCompile Include="..\..\BrainSuite16a1_vs\Debug\moc_dsglwidget.cpp" />
+    <ClCompile Include="..\..\BrainSuite16a1_vs\Debug\moc_dsimagerangecontrol.cpp" />
+    <ClCompile Include="..\..\BrainSuite16a1_vs\Debug\moc_dsrangeslider.cpp" />
+    <ClCompile Include="..\..\BrainSuite16a1_vs\Debug\moc_dualregistrationprocess.cpp" />
+    <ClCompile Include="..\..\BrainSuite16a1_vs\Debug\moc_dualregistrationprocessdialog.cpp" />
+    <ClCompile Include="..\..\BrainSuite16a1_vs\Debug\moc_filedownloader.cpp" />
+    <ClCompile Include="..\..\BrainSuite16a1_vs\Debug\moc_floatslider.cpp" />
+    <ClCompile Include="..\..\BrainSuite16a1_vs\Debug\moc_gotocoordinatedialog.cpp" />
+    <ClCompile Include="..\..\BrainSuite16a1_vs\Debug\moc_imagedisplaypropertiesform.cpp" />
+    <ClCompile Include="..\..\BrainSuite16a1_vs\Debug\moc_imageframe.cpp" />
+    <ClCompile Include="..\..\BrainSuite16a1_vs\Debug\moc_imagewidget.cpp" />
+    <ClCompile Include="..\..\BrainSuite16a1_vs\Debug\moc_innercorticalsurfacedialog.cpp" />
+    <ClCompile Include="..\..\BrainSuite16a1_vs\Debug\moc_nonuniformitycorrectiondialog.cpp" />
+    <ClCompile Include="..\..\BrainSuite16a1_vs\Debug\moc_pialsurfacedialog.cpp" />
+    <ClCompile Include="..\..\BrainSuite16a1_vs\Debug\moc_pialsurfacethread.cpp" />
+    <ClCompile Include="..\..\BrainSuite16a1_vs\Debug\moc_pialsurfacethreaddialog.cpp" />
+    <ClCompile Include="..\..\BrainSuite16a1_vs\Debug\moc_processingthreaddialog.cpp" />
+    <ClCompile Include="..\..\BrainSuite16a1_vs\Debug\moc_registrationprocessdialog.cpp" />
+    <ClCompile Include="..\..\BrainSuite16a1_vs\Debug\moc_scrubmaskdialog.cpp" />
+    <ClCompile Include="..\..\BrainSuite16a1_vs\Debug\moc_skullandscalpdialog.cpp" />
+    <ClCompile Include="..\..\BrainSuite16a1_vs\Debug\moc_skullstrippingdialog.cpp" />
+    <ClCompile Include="..\..\BrainSuite16a1_vs\Debug\moc_splithemispheresdialog.cpp" />
+    <ClCompile Include="..\..\BrainSuite16a1_vs\Debug\moc_surfacedisplayform.cpp" />
+    <ClCompile Include="..\..\BrainSuite16a1_vs\Debug\moc_surfacelabelprocess.cpp" />
+    <ClCompile Include="..\..\BrainSuite16a1_vs\Debug\moc_svregistrationdialog.cpp" />
+    <ClCompile Include="..\..\BrainSuite16a1_vs\Debug\moc_tissueclassificationdialog.cpp" />
+    <ClCompile Include="..\..\BrainSuite16a1_vs\Debug\moc_topologicalcorrectiondialog.cpp" />
+    <ClCompile Include="..\..\BrainSuite16a1_vs\Debug\moc_welcomesplashpage.cpp" />
+    <ClCompile Include="..\..\BrainSuite16a1_vs\Release\moc_aboutbrainsuitedialog.cpp" />
+    <ClCompile Include="..\..\BrainSuite16a1_vs\Release\moc_bfcthreaddialog.cpp" />
+    <ClCompile Include="..\..\BrainSuite16a1_vs\Release\moc_biasfieldcorrectionthread.cpp" />
+    <ClCompile Include="..\..\BrainSuite16a1_vs\Release\moc_brainsuiteinstalldialog.cpp" />
+    <ClCompile Include="..\..\BrainSuite16a1_vs\Release\moc_brainsuitewindow.cpp" />
+    <ClCompile Include="..\..\BrainSuite16a1_vs\Release\moc_cerebrumextractiondialog.cpp" />
+    <ClCompile Include="..\..\BrainSuite16a1_vs\Release\moc_clicklabel.cpp" />
+    <ClCompile Include="..\..\BrainSuite16a1_vs\Release\moc_colorselectionbutton.cpp" />
+    <ClCompile Include="..\..\BrainSuite16a1_vs\Release\moc_computeconnectivitythread.cpp" />
+    <ClCompile Include="..\..\BrainSuite16a1_vs\Release\moc_computeconnectivitythreaddialog.cpp" />
+    <ClCompile Include="..\..\BrainSuite16a1_vs\Release\moc_connectivityviewdialog.cpp" />
+    <ClCompile Include="..\..\BrainSuite16a1_vs\Release\moc_consoletext.cpp" />
+    <ClCompile Include="..\..\BrainSuite16a1_vs\Release\moc_cortexidentificationdialog.cpp" />
+    <ClCompile Include="..\..\BrainSuite16a1_vs\Release\moc_corticalextractionsequencedialog.cpp" />
+    <ClCompile Include="..\..\BrainSuite16a1_vs\Release\moc_curvetoolboxform.cpp" />
+    <ClCompile Include="..\..\BrainSuite16a1_vs\Release\moc_delineationtoolboxform.cpp" />
+    <ClCompile Include="..\..\BrainSuite16a1_vs\Release\moc_dewispdialog.cpp" />
+    <ClCompile Include="..\..\BrainSuite16a1_vs\Release\moc_diffusiontoolboxform.cpp" />
+    <ClCompile Include="..\..\BrainSuite16a1_vs\Release\moc_dsfilelabel.cpp" />
+    <ClCompile Include="..\..\BrainSuite16a1_vs\Release\moc_dsfilepathbutton.cpp" />
+    <ClCompile Include="..\..\BrainSuite16a1_vs\Release\moc_dsglviewdialog.cpp" />
+    <ClCompile Include="..\..\BrainSuite16a1_vs\Release\moc_dsglwidget.cpp" />
+    <ClCompile Include="..\..\BrainSuite16a1_vs\Release\moc_dsimagerangecontrol.cpp" />
+    <ClCompile Include="..\..\BrainSuite16a1_vs\Release\moc_dsrangeslider.cpp" />
+    <ClCompile Include="..\..\BrainSuite16a1_vs\Release\moc_dualregistrationprocess.cpp" />
+    <ClCompile Include="..\..\BrainSuite16a1_vs\Release\moc_dualregistrationprocessdialog.cpp" />
+    <ClCompile Include="..\..\BrainSuite16a1_vs\Release\moc_filedownloader.cpp" />
+    <ClCompile Include="..\..\BrainSuite16a1_vs\Release\moc_floatslider.cpp" />
+    <ClCompile Include="..\..\BrainSuite16a1_vs\Release\moc_gotocoordinatedialog.cpp" />
+    <ClCompile Include="..\..\BrainSuite16a1_vs\Release\moc_imagedisplaypropertiesform.cpp" />
+    <ClCompile Include="..\..\BrainSuite16a1_vs\Release\moc_imageframe.cpp" />
+    <ClCompile Include="..\..\BrainSuite16a1_vs\Release\moc_imagewidget.cpp" />
+    <ClCompile Include="..\..\BrainSuite16a1_vs\Release\moc_innercorticalsurfacedialog.cpp" />
+    <ClCompile Include="..\..\BrainSuite16a1_vs\Release\moc_nonuniformitycorrectiondialog.cpp" />
+    <ClCompile Include="..\..\BrainSuite16a1_vs\Release\moc_pialsurfacedialog.cpp" />
+    <ClCompile Include="..\..\BrainSuite16a1_vs\Release\moc_pialsurfacethread.cpp" />
+    <ClCompile Include="..\..\BrainSuite16a1_vs\Release\moc_pialsurfacethreaddialog.cpp" />
+    <ClCompile Include="..\..\BrainSuite16a1_vs\Release\moc_processingthreaddialog.cpp" />
+    <ClCompile Include="..\..\BrainSuite16a1_vs\Release\moc_registrationprocessdialog.cpp" />
+    <ClCompile Include="..\..\BrainSuite16a1_vs\Release\moc_scrubmaskdialog.cpp" />
+    <ClCompile Include="..\..\BrainSuite16a1_vs\Release\moc_skullandscalpdialog.cpp" />
+    <ClCompile Include="..\..\BrainSuite16a1_vs\Release\moc_skullstrippingdialog.cpp" />
+    <ClCompile Include="..\..\BrainSuite16a1_vs\Release\moc_splithemispheresdialog.cpp" />
+    <ClCompile Include="..\..\BrainSuite16a1_vs\Release\moc_surfacedisplayform.cpp" />
+    <ClCompile Include="..\..\BrainSuite16a1_vs\Release\moc_surfacelabelprocess.cpp" />
+    <ClCompile Include="..\..\BrainSuite16a1_vs\Release\moc_svregistrationdialog.cpp" />
+    <ClCompile Include="..\..\BrainSuite16a1_vs\Release\moc_tissueclassificationdialog.cpp" />
+    <ClCompile Include="..\..\BrainSuite16a1_vs\Release\moc_topologicalcorrectiondialog.cpp" />
+    <ClCompile Include="..\..\BrainSuite16a1_vs\Release\moc_welcomesplashpage.cpp" />
     <ClCompile Include="aboutbrainsuitedialog.cpp" />
     <ClCompile Include="..\corticalextraction\bse\anisotropicdiffusionfilter.cpp" />
     <ClCompile Include="..\3rdParty\src\arcball.cpp" />
@@ -192,153 +290,6 @@
     <ClCompile Include="corticalextractionsequencedialog_parameters.cpp" />
     <ClCompile Include="corticalextractionsettings.cpp" />
     <ClCompile Include="curvetoolboxform.cpp" />
-    <ClCompile Include="Debug\moc_aboutbrainsuitedialog.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="Debug\moc_bfcthreaddialog.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="Debug\moc_biasfieldcorrectionthread.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="Debug\moc_brainsuiteinstalldialog.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="Debug\moc_brainsuitewindow.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="Debug\moc_cerebrumextractiondialog.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="Debug\moc_clicklabel.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="Debug\moc_colorselectionbutton.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="Debug\moc_computeconnectivitythread.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="Debug\moc_computeconnectivitythreaddialog.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="Debug\moc_connectivityviewdialog.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="Debug\moc_consoletext.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="Debug\moc_cortexidentificationdialog.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="Debug\moc_corticalextractionsequencedialog.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="Debug\moc_curvetoolboxform.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="Debug\moc_delineationtoolboxform.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="Debug\moc_dewispdialog.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="Debug\moc_diffusiontoolboxform.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="Debug\moc_dsfilelabel.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="Debug\moc_dsfilepathbutton.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="Debug\moc_dsglviewdialog.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="Debug\moc_dsglwidget.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="Debug\moc_dsimagerangecontrol.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="Debug\moc_dsrangeslider.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="Debug\moc_dualregistrationprocess.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="Debug\moc_dualregistrationprocessdialog.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="Debug\moc_filedownloader.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="Debug\moc_floatslider.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="Debug\moc_gotocoordinatedialog.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="Debug\moc_imagedisplaypropertiesform.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="Debug\moc_imageframe.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="Debug\moc_imagewidget.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="Debug\moc_innercorticalsurfacedialog.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="Debug\moc_nonuniformitycorrectiondialog.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="Debug\moc_pialsurfacedialog.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="Debug\moc_pialsurfacethread.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="Debug\moc_pialsurfacethreaddialog.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="Debug\moc_processingthreaddialog.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="Debug\moc_registrationprocessdialog.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="Debug\moc_scrubmaskdialog.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="Debug\moc_skullandscalpdialog.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="Debug\moc_skullstrippingdialog.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="Debug\moc_splithemispheresdialog.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="Debug\moc_surfacedisplayform.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="Debug\moc_surfacelabelprocess.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="Debug\moc_svregistrationdialog.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="Debug\moc_tissueclassificationdialog.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="Debug\moc_topologicalcorrectiondialog.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="Debug\moc_welcomesplashpage.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
     <ClCompile Include="delineationtoolboxform.cpp" />
     <ClCompile Include="..\corticalextraction\dewisp\dewisp.cpp" />
     <ClCompile Include="dewispdialog.cpp" />
@@ -422,153 +373,6 @@
     <ClCompile Include="..\corticalextraction\bfc\regularizedsplinef.cpp" />
     <ClCompile Include="..\corticalextraction\bfc\roihistogram.cpp" />
     <ClCompile Include="..\vol3d\runlengthsegmenter.cpp" />
-    <ClCompile Include="Release\moc_aboutbrainsuitedialog.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="Release\moc_bfcthreaddialog.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="Release\moc_biasfieldcorrectionthread.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="Release\moc_brainsuiteinstalldialog.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="Release\moc_brainsuitewindow.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="Release\moc_cerebrumextractiondialog.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="Release\moc_clicklabel.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="Release\moc_colorselectionbutton.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="Release\moc_computeconnectivitythread.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="Release\moc_computeconnectivitythreaddialog.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="Release\moc_connectivityviewdialog.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="Release\moc_consoletext.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="Release\moc_cortexidentificationdialog.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="Release\moc_corticalextractionsequencedialog.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="Release\moc_curvetoolboxform.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="Release\moc_delineationtoolboxform.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="Release\moc_dewispdialog.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="Release\moc_diffusiontoolboxform.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="Release\moc_dsfilelabel.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="Release\moc_dsfilepathbutton.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="Release\moc_dsglviewdialog.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="Release\moc_dsglwidget.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="Release\moc_dsimagerangecontrol.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="Release\moc_dsrangeslider.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="Release\moc_dualregistrationprocess.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="Release\moc_dualregistrationprocessdialog.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="Release\moc_filedownloader.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="Release\moc_floatslider.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="Release\moc_gotocoordinatedialog.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="Release\moc_imagedisplaypropertiesform.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="Release\moc_imageframe.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="Release\moc_imagewidget.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="Release\moc_innercorticalsurfacedialog.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="Release\moc_nonuniformitycorrectiondialog.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="Release\moc_pialsurfacedialog.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="Release\moc_pialsurfacethread.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="Release\moc_pialsurfacethreaddialog.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="Release\moc_processingthreaddialog.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="Release\moc_registrationprocessdialog.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="Release\moc_scrubmaskdialog.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="Release\moc_skullandscalpdialog.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="Release\moc_skullstrippingdialog.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="Release\moc_splithemispheresdialog.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="Release\moc_surfacedisplayform.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="Release\moc_surfacelabelprocess.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="Release\moc_svregistrationdialog.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="Release\moc_tissueclassificationdialog.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="Release\moc_topologicalcorrectiondialog.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="Release\moc_welcomesplashpage.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
     <ClCompile Include="scrubmaskdialog.cpp" />
     <ClCompile Include="scrubmaskguitool.cpp" />
     <ClCompile Include="..\surflib\siltsurface.cpp" />
