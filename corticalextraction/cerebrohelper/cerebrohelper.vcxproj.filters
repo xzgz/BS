@@ -1,0 +1,928 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\cerebrohelper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\align.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\alignwarp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\antiwarp2D.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\antiwarp3D.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\balanc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\balbak.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\blat100.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\blat1000.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\blat40.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\blat400.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\caxpy.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\cdiver.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\cdotc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\cdvasb.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\cexp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\cfftb1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\cfftf1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\cffti1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\cgefa.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\cgemm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\cgesl.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\chirpterp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\clip_suffix.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\clog.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\close_header.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\combineair.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\combinewarp_left.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\combinewarp_right.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\comloger.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\comtloger.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\consult_header.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\create_vols.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\cscal.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\csqrt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\d1mach.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\daxpy.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\ddet.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\ddot.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\dgedi.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\dgefa.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\dgemm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\dgesl.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\diffg2D.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\diffg3D.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\dmodposl.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\do_align_warp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\do_alignlinear.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\do_binarize.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\do_binarymask.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\do_binarymath.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\do_cd_air.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\do_cd_warp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\do_combine_air.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\do_combine_warp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\do_crop.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\do_definecommon_air.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\do_determinant_mask.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\do_fixheader.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\do_fuse.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\do_gsmooth.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\do_identify.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\do_invert_air.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\do_layout.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\do_magnify.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\do_makeaheader.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\do_mv_air.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\do_mv_warp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\do_overlay_mask.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\do_reconcile_air.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\do_reorient.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\do_resize.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\do_reslice.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\do_reslice_ucf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\do_reslice_unwarp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\do_reslice_unwarp_ucf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\do_reslice_vector.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\do_reslice_warp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\do_reslice_warp_ucf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\do_reunite.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\do_separate.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\do_softmean.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\do_softmeannorescale.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\do_straightmean.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\do_straightmeannorescale.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\do_strictmean.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\do_strictmeannorescale.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\do_zoomer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\dpofa.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\dposl.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\dqage.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\dqk15.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\dqpsrt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\dscal.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\dswap.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\eexper_pade.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\eloger_pade.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\exchng.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\expderivut.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\exput.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\fclose_decompress.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\file_from_path.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\flip_x.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\flip_y.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\flip_z.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\fopen_decompress.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\fprob_errs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\fprobr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\fprobw.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\free_c.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\free_d.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\free_f.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\free_i.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\free_vols.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\gael.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\gausser.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\gausssmaller.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\hash.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\hqr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\hqr2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\hqr3.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\icamax.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\idamax.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\identical.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\interp_lin_2D.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\interp_lin_3D.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\interp_nn_2D.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\interp_nn_3D.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\interp_wsinc_2D.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\interp_wsinc_3D.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\interp_wsinc_xy.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\interp_wsinc_xz.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\interp_wsinc_yz.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\inverter.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\layerout.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\load.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\load1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\load1as1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\load_probr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\logderivut.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\logpade.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\logut.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\magnifier.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\map_value.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\mask.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\matmul.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\matrixs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\matrixsc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\matrixsf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\matrixsi.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\maxvoxel.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\meancalc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\meaner.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\modchol.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\mulmat.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\open_header.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\orthes.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\ortran.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\padeorder.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\padetanh.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\parse_double.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\parse_file_list.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\parse_float.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\parse_int.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\parse_long.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\parse_schar.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\parse_short.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\parse_uchar.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\parse_uint.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\parse_ulong.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\parse_ushort.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\passb.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\passb2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\passb3.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\passb4.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\passb5.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\passf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\passf2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\passf3.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\passf4.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\passf5.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\pfactor.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\promote.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\qrstep.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\quickread.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\quickwrite.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\qvderiv2Dlesion_warp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\qvderiv2Dwarp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\qvderiv3Dlesion_warp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\qvderiv3Dwarp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\qvderivsLS12.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\qvderivsLS15.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\qvderivsLS6.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\qvderivsLS8.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\qvderivsN12.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\qvderivsN15.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\qvderivsN6.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\qvderivsN8.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\qvderivsRS12.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\qvderivsRS15.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\qvderivsRS6.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\qvderivsRS8.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\r_affine_lin.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\r_persp_lin.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\r_persp_nn.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\r_persp_wsinc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\r_persp_wsinc_xy.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\r_persp_wsinc_xz.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\r_persp_wsinc_yz.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\r_scan_chirp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\r_scan_chirp_xy.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\r_scan_chirp_xz.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\r_scan_chirp_yz.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\r_scan_sinc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\r_scan_wsinc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\r_uwrp_2D.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\r_uwrp_3D.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\r_vec_warp_2D.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\r_vec_warp_3D.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\r_warp_2D.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\r_warp_3D.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\radb2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\radb3.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\radb4.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\radb5.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\radbg.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\radf2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\radf3.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\radf4.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\radf5.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\radfg.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\read_air16.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\read_air16via_airw.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\read_airfield.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\read_airw.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\read_image.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\read_value.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\report_error.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\resizer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\rfftb1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\rfftf1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\rffti1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\rg.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\rgschur.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\rsftocsf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\same_dim.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\same_size.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\save.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\save1as1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\save_probw.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\saveas1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\sdpred.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\sqrtdb.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\sqrtut.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\swap_x_and_y.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\swap_x_and_z.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\swap_y_and_z.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\swapbytes.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\sylv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\tritrixs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\uv2D3.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\uv2D4.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\uv2D5.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\uv2D6.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\uv2D8.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\uv3D12.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\uv3D15.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\uv3D6.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\uv3D7.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\uv3D9.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\uvderiv2Dlesion_warp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\uvderiv2Dwarp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\uvderiv3Dlesion_warp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\uvderiv3Dwarp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\uvderivsLS12.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\uvderivsLS15.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\uvderivsLS6.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\uvderivsLS8.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\uvderivsN12.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\uvderivsN15.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\uvderivsN6.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\uvderivsN8.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\uvderivsRS12.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\uvderivsRS15.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\uvderivsRS6.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\uvderivsRS8.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\uvrm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\warp2D.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\warp3D.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\write_air16.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\write_airw.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\write_header.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\write_value.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\zeros.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\zoom.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\zoom2D.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\AIR.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\HEADER.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\cerebrohelperparser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\findcoords12.cf" />
+    <None Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\findcoords15.cf" />
+    <None Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\findcoords6.cf" />
+    <None Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\findcoords8.cf" />
+    <None Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\norm_std_dev.cf" />
+    <None Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\param_chain_rule.cf" />
+    <None Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\qnorm_std_dev.cf" />
+    <None Include="D:\Software\BrainSuite16a1\BrainSuite16a1_src\corticalextraction\cerebrohelper\scale_param_chain_rule.cf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{ABD57440-EF45-31A3-B222-D3CBBCFFD12A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{F68C90FE-5664-352A-979C-48C1C322403F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

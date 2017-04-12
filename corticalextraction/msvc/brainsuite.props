@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2015 The Regents of the University of California -->
+<!-- Authored by David W. Shattuck -->
+<!-- Licensed under GPLv2 -->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros">
+    <!--debug suffix-->
+    <DebugSuffix Condition="'$(Configuration)'=='Debug'">d</DebugSuffix>
+    <DebugSuffix Condition="'$(Configuration)'!='Debug'">
+    </DebugSuffix>
+    <!--platform-->
+    <ShortPlatform Condition="'$(Platform)' == 'Win32'">x86</ShortPlatform>
+    <ShortPlatform Condition="'$(Platform)' == 'x64'">x64</ShortPlatform>
+    <!--toolset-->
+    <Toolset Condition="'$(PlatformToolset)' == 'v90'">vc90</Toolset>
+    <Toolset Condition="'$(PlatformToolset)' == 'v100'">vc100</Toolset>
+    <BST_VERSION>"15a"</BST_VERSION>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetName>$(ProjectName)</TargetName>
+    <OutDir>$(SolutionDir)..\$(Configuration)\$(Platform)\</OutDir>
+    <_PropertySheetDisplayName>brainsuite15c</_PropertySheetDisplayName>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\include\;..\..\include;..\..\surflib;..\..\3rdParty\zlib-1.2.8;..\..\3rdParty\include\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RunTimeLibrary Condition="'$(Configuration)'=='Debug'">MultiThreadedDebug</RunTimeLibrary>
+      <RunTimeLibrary Condition="'$(Configuration)'!='Debug'">MultiThreaded</RunTimeLibrary>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <PreprocessorDefinitions>_USE_MATH_DEFINES;_UNICODE;UNICODE;ZLIB_WINAPI;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <UndefinePreprocessorDefinitions>ZLIB_DLL</UndefinePreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>..\..\lib\$(Platform)\$(PlatformToolset)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <BuildMacro Include="BST_VERSION">
+      <Value>$(BST_VERSION)</Value>
+      <EnvironmentVariable>true</EnvironmentVariable>
+    </BuildMacro>
+  </ItemGroup>
+</Project>

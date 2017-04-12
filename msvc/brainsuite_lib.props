@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros">
+    <!--debug suffix-->
+    <DebugSuffix>
+    </DebugSuffix>
+    <DebugSuffix Condition="'$(Configuration)'=='Debug'">d</DebugSuffix>
+    <DebugSuffix Condition="'$(Configuration)'=='DebugMD'">d</DebugSuffix>
+    <!--platform-->
+    <ShortPlatform Condition="'$(Platform)' == 'Win32'">x86</ShortPlatform>
+    <ShortPlatform Condition="'$(Platform)' == 'x64'">x64</ShortPlatform>
+    <!--toolset-->
+    <Toolset Condition="'$(PlatformToolset)' == 'v90'">vc90</Toolset>
+    <Toolset Condition="'$(PlatformToolset)' == 'v100'">vc100</Toolset>
+    <!-- runtime library -->
+    <RTL Condition="'$(Configuration)'=='Debug'">MTd</RTL>
+    <RTL Condition="'$(Configuration)'=='DebugMD'">MDd</RTL>
+    <RTL Condition="'$(Configuration)'=='Release'">MT</RTL>
+    <RTL Condition="'$(Configuration)'=='ReleaseMD'">MD</RTL>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OutDir>..\lib\$(Platform)\$(PlatformToolset)\</OutDir>
+    <TargetName>$(ProjectName)_$(Platform)_$(RTL)</TargetName>
+    <_PropertySheetDisplayName>brainsuite15lib</_PropertySheetDisplayName>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <RunTimeLibrary Condition="'$(RTL)'=='MTd'">MultiThreadedDebug</RunTimeLibrary>
+      <RunTimeLibrary Condition="'$(RTL)'=='MT'">MultiThreaded</RunTimeLibrary>
+      <RunTimeLibrary Condition="'$(RTL)'=='MDd'">MultiThreadedDebugDLL</RunTimeLibrary>
+      <RunTimeLibrary Condition="'$(RTL)'=='MD'">MultiThreadedDLL</RunTimeLibrary>
+      <PreprocessorDefinitions>_USE_MATH_DEFINES;NOMINMAX;_UNICODE;UNICODE;ZLIB_WINAPI;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <UndefinePreprocessorDefinitions>ZLIB_DLL</UndefinePreprocessorDefinitions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <MinimalRebuild>false</MinimalRebuild>
+    </ClCompile>
+    <Link />
+  </ItemDefinitionGroup>
+  <ItemGroup />
+</Project>

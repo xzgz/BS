@@ -1,0 +1,42 @@
+<RCC>
+    <qresource prefix="/atlas">
+        <file>atlas/brainsuite.icbm452.lpi.v08a.hdr</file>
+        <file>atlas/brainsuite.icbm452.lpi.v08a.img</file>
+        <file>atlas/brainsuite.icbm452.lpi.v09e3.label.hdr</file>
+        <file>atlas/brainsuite.icbm452.lpi.v09e3.label.img</file>
+        <file>atlas/brainsuite.icbm452.v15a.label.hdr</file>
+        <file>atlas/brainsuite.icbm452.v15a.label.img</file>
+    </qresource>
+    <qresource prefix="/images">
+        <file>images/mask_icon.png</file>
+        <file>images/surface_icon.png</file>
+        <file>images/image_properties.png</file>
+        <file>images/hardi_icon.png</file>
+        <file>images/close_icon_64px.png</file>
+        <file>images/dilate_cube_icon_64px.png</file>
+        <file>images/dilate_diamond_icon_64px.png</file>
+        <file>images/erode_cube_icon_x64.png</file>
+        <file>images/erode_diamond_icon_x64.png</file>
+        <file>images/grab_label_icon_64px.png</file>
+        <file>images/curve_tool_icon_64px.png</file>
+        <file>images/surface_screen_maximize_256px.png</file>
+        <file>images/surface_screen_4up_256px.png</file>
+        <file>images/brainsuite_icon_128px.png</file>
+        <file>images/brainsuite_icon_256px.png</file>
+        <file>images/brainsuite_icon_512px.png</file>
+        <file>images/folder_open_brain_256px.png</file>
+        <file>images/surface_view_popout_256px.png</file>
+        <file>images/surface_rewind_256px.png</file>
+        <file>images/ax_slice.png</file>
+        <file>images/cor_slice.png</file>
+        <file>images/sag_slice.png</file>
+        <file>images/brainsuite_icon_256px.ico</file>
+        <file>images/bst_plus.png</file>
+    </qresource>
+    <qresource prefix="/labeldesc">
+        <file>labeldesc/brainsuite_labeldescriptions_14May2014.xml</file>
+    </qresource>
+    <qresource prefix="/protocols">
+        <file>protocols/brainsuite_protocol_Damasio2009.xml</file>
+    </qresource>
+</RCC>
