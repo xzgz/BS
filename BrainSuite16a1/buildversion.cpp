@@ -24,12 +24,12 @@
 
 std::string BuildVersion::build()
 {
-    return BUILDVERSION;
+    return "2777";//BUILDVERSION;
 }
 
 int BuildVersion::buildNumber()
 {
   int build=0;
-  std::istringstream(BUILDVERSION) >> build;
+  std::istringstream("2777") >> build;
   return build;
 }
