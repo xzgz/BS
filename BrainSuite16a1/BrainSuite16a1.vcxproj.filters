@@ -41,16 +41,6 @@
       <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
       <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
     </Filter>
-    <Filter Include="Generated Files\Debug">
-      <UniqueIdentifier>{c1b3734b-6e71-4a5f-b91f-620ad1d26c46}</UniqueIdentifier>
-      <Extensions>cpp;moc</Extensions>
-      <SourceControlFiles>False</SourceControlFiles>
-    </Filter>
-    <Filter Include="Generated Files\Release">
-      <UniqueIdentifier>{df5e07ea-37a8-4ab9-899c-a95e4df45d7b}</UniqueIdentifier>
-      <Extensions>cpp;moc</Extensions>
-      <SourceControlFiles>False</SourceControlFiles>
-    </Filter>
     <Filter Include="Source Files">
       <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
       <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
@@ -558,302 +548,155 @@
     <ClCompile Include="welcomesplashpage.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="GeneratedFiles\qrc_brainsuite.cpp">
+    <ClCompile Include="..\..\BrainSuite16a1_vs\GeneratedFiles\qrc_brainsuite.cpp">
       <Filter>Generated Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\BrainSuite16a1_vs\Debug\moc_aboutbrainsuitedialog.cpp">
-      <Filter>Generated Files\Debug</Filter>
+    <ClCompile Include="..\..\BrainSuite16a1_vs\GeneratedFiles\moc_welcomesplashpage.cpp">
+      <Filter>Generated Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\BrainSuite16a1_vs\Debug\moc_bfcthreaddialog.cpp">
-      <Filter>Generated Files\Debug</Filter>
+    <ClCompile Include="..\..\BrainSuite16a1_vs\GeneratedFiles\moc_topologicalcorrectiondialog.cpp">
+      <Filter>Generated Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\BrainSuite16a1_vs\Debug\moc_biasfieldcorrectionthread.cpp">
-      <Filter>Generated Files\Debug</Filter>
+    <ClCompile Include="..\..\BrainSuite16a1_vs\GeneratedFiles\moc_tissueclassificationdialog.cpp">
+      <Filter>Generated Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\BrainSuite16a1_vs\Debug\moc_brainsuiteinstalldialog.cpp">
-      <Filter>Generated Files\Debug</Filter>
+    <ClCompile Include="..\..\BrainSuite16a1_vs\GeneratedFiles\moc_svregistrationdialog.cpp">
+      <Filter>Generated Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\BrainSuite16a1_vs\Debug\moc_brainsuitewindow.cpp">
-      <Filter>Generated Files\Debug</Filter>
+    <ClCompile Include="..\..\BrainSuite16a1_vs\GeneratedFiles\moc_surfacelabelprocess.cpp">
+      <Filter>Generated Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\BrainSuite16a1_vs\Debug\moc_cerebrumextractiondialog.cpp">
-      <Filter>Generated Files\Debug</Filter>
+    <ClCompile Include="..\..\BrainSuite16a1_vs\GeneratedFiles\moc_surfacedisplayform.cpp">
+      <Filter>Generated Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\BrainSuite16a1_vs\Debug\moc_clicklabel.cpp">
-      <Filter>Generated Files\Debug</Filter>
+    <ClCompile Include="..\..\BrainSuite16a1_vs\GeneratedFiles\moc_splithemispheresdialog.cpp">
+      <Filter>Generated Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\BrainSuite16a1_vs\Debug\moc_colorselectionbutton.cpp">
-      <Filter>Generated Files\Debug</Filter>
+    <ClCompile Include="..\..\BrainSuite16a1_vs\GeneratedFiles\moc_skullstrippingdialog.cpp">
+      <Filter>Generated Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\BrainSuite16a1_vs\Debug\moc_computeconnectivitythread.cpp">
-      <Filter>Generated Files\Debug</Filter>
+    <ClCompile Include="..\..\BrainSuite16a1_vs\GeneratedFiles\moc_skullandscalpdialog.cpp">
+      <Filter>Generated Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\BrainSuite16a1_vs\Debug\moc_computeconnectivitythreaddialog.cpp">
-      <Filter>Generated Files\Debug</Filter>
+    <ClCompile Include="..\..\BrainSuite16a1_vs\GeneratedFiles\moc_scrubmaskdialog.cpp">
+      <Filter>Generated Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\BrainSuite16a1_vs\Debug\moc_connectivityviewdialog.cpp">
-      <Filter>Generated Files\Debug</Filter>
+    <ClCompile Include="..\..\BrainSuite16a1_vs\GeneratedFiles\moc_registrationprocessdialog.cpp">
+      <Filter>Generated Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\BrainSuite16a1_vs\Debug\moc_consoletext.cpp">
-      <Filter>Generated Files\Debug</Filter>
+    <ClCompile Include="..\..\BrainSuite16a1_vs\GeneratedFiles\moc_processingthreaddialog.cpp">
+      <Filter>Generated Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\BrainSuite16a1_vs\Debug\moc_cortexidentificationdialog.cpp">
-      <Filter>Generated Files\Debug</Filter>
+    <ClCompile Include="..\..\BrainSuite16a1_vs\GeneratedFiles\moc_pialsurfacethreaddialog.cpp">
+      <Filter>Generated Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\BrainSuite16a1_vs\Debug\moc_corticalextractionsequencedialog.cpp">
-      <Filter>Generated Files\Debug</Filter>
+    <ClCompile Include="..\..\BrainSuite16a1_vs\GeneratedFiles\moc_pialsurfacethread.cpp">
+      <Filter>Generated Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\BrainSuite16a1_vs\Debug\moc_curvetoolboxform.cpp">
-      <Filter>Generated Files\Debug</Filter>
+    <ClCompile Include="..\..\BrainSuite16a1_vs\GeneratedFiles\moc_pialsurfacedialog.cpp">
+      <Filter>Generated Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\BrainSuite16a1_vs\Debug\moc_delineationtoolboxform.cpp">
-      <Filter>Generated Files\Debug</Filter>
+    <ClCompile Include="..\..\BrainSuite16a1_vs\GeneratedFiles\moc_nonuniformitycorrectiondialog.cpp">
+      <Filter>Generated Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\BrainSuite16a1_vs\Debug\moc_dewispdialog.cpp">
-      <Filter>Generated Files\Debug</Filter>
+    <ClCompile Include="..\..\BrainSuite16a1_vs\GeneratedFiles\moc_innercorticalsurfacedialog.cpp">
+      <Filter>Generated Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\BrainSuite16a1_vs\Debug\moc_diffusiontoolboxform.cpp">
-      <Filter>Generated Files\Debug</Filter>
+    <ClCompile Include="..\..\BrainSuite16a1_vs\GeneratedFiles\moc_imagewidget.cpp">
+      <Filter>Generated Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\BrainSuite16a1_vs\Debug\moc_dsfilelabel.cpp">
-      <Filter>Generated Files\Debug</Filter>
+    <ClCompile Include="..\..\BrainSuite16a1_vs\GeneratedFiles\moc_imageframe.cpp">
+      <Filter>Generated Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\BrainSuite16a1_vs\Debug\moc_dsfilepathbutton.cpp">
-      <Filter>Generated Files\Debug</Filter>
+    <ClCompile Include="..\..\BrainSuite16a1_vs\GeneratedFiles\moc_imagedisplaypropertiesform.cpp">
+      <Filter>Generated Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\BrainSuite16a1_vs\Debug\moc_dsglviewdialog.cpp">
-      <Filter>Generated Files\Debug</Filter>
+    <ClCompile Include="..\..\BrainSuite16a1_vs\GeneratedFiles\moc_gotocoordinatedialog.cpp">
+      <Filter>Generated Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\BrainSuite16a1_vs\Debug\moc_dsglwidget.cpp">
-      <Filter>Generated Files\Debug</Filter>
+    <ClCompile Include="..\..\BrainSuite16a1_vs\GeneratedFiles\moc_floatslider.cpp">
+      <Filter>Generated Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\BrainSuite16a1_vs\Debug\moc_dsimagerangecontrol.cpp">
-      <Filter>Generated Files\Debug</Filter>
+    <ClCompile Include="..\..\BrainSuite16a1_vs\GeneratedFiles\moc_filedownloader.cpp">
+      <Filter>Generated Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\BrainSuite16a1_vs\Debug\moc_dsrangeslider.cpp">
-      <Filter>Generated Files\Debug</Filter>
+    <ClCompile Include="..\..\BrainSuite16a1_vs\GeneratedFiles\moc_dualregistrationprocessdialog.cpp">
+      <Filter>Generated Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\BrainSuite16a1_vs\Debug\moc_dualregistrationprocess.cpp">
-      <Filter>Generated Files\Debug</Filter>
+    <ClCompile Include="..\..\BrainSuite16a1_vs\GeneratedFiles\moc_dualregistrationprocess.cpp">
+      <Filter>Generated Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\BrainSuite16a1_vs\Debug\moc_dualregistrationprocessdialog.cpp">
-      <Filter>Generated Files\Debug</Filter>
+    <ClCompile Include="..\..\BrainSuite16a1_vs\GeneratedFiles\moc_dsrangeslider.cpp">
+      <Filter>Generated Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\BrainSuite16a1_vs\Debug\moc_filedownloader.cpp">
-      <Filter>Generated Files\Debug</Filter>
+    <ClCompile Include="..\..\BrainSuite16a1_vs\GeneratedFiles\moc_dsimagerangecontrol.cpp">
+      <Filter>Generated Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\BrainSuite16a1_vs\Debug\moc_floatslider.cpp">
-      <Filter>Generated Files\Debug</Filter>
+    <ClCompile Include="..\..\BrainSuite16a1_vs\GeneratedFiles\moc_dsglwidget.cpp">
+      <Filter>Generated Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\BrainSuite16a1_vs\Debug\moc_gotocoordinatedialog.cpp">
-      <Filter>Generated Files\Debug</Filter>
+    <ClCompile Include="..\..\BrainSuite16a1_vs\GeneratedFiles\moc_dsglviewdialog.cpp">
+      <Filter>Generated Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\BrainSuite16a1_vs\Debug\moc_imagedisplaypropertiesform.cpp">
-      <Filter>Generated Files\Debug</Filter>
+    <ClCompile Include="..\..\BrainSuite16a1_vs\GeneratedFiles\moc_dsfilepathbutton.cpp">
+      <Filter>Generated Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\BrainSuite16a1_vs\Debug\moc_imageframe.cpp">
-      <Filter>Generated Files\Debug</Filter>
+    <ClCompile Include="..\..\BrainSuite16a1_vs\GeneratedFiles\moc_dsfilelabel.cpp">
+      <Filter>Generated Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\BrainSuite16a1_vs\Debug\moc_imagewidget.cpp">
-      <Filter>Generated Files\Debug</Filter>
+    <ClCompile Include="..\..\BrainSuite16a1_vs\GeneratedFiles\moc_diffusiontoolboxform.cpp">
+      <Filter>Generated Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\BrainSuite16a1_vs\Debug\moc_innercorticalsurfacedialog.cpp">
-      <Filter>Generated Files\Debug</Filter>
+    <ClCompile Include="..\..\BrainSuite16a1_vs\GeneratedFiles\moc_dewispdialog.cpp">
+      <Filter>Generated Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\BrainSuite16a1_vs\Debug\moc_nonuniformitycorrectiondialog.cpp">
-      <Filter>Generated Files\Debug</Filter>
+    <ClCompile Include="..\..\BrainSuite16a1_vs\GeneratedFiles\moc_delineationtoolboxform.cpp">
+      <Filter>Generated Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\BrainSuite16a1_vs\Debug\moc_pialsurfacedialog.cpp">
-      <Filter>Generated Files\Debug</Filter>
+    <ClCompile Include="..\..\BrainSuite16a1_vs\GeneratedFiles\moc_curvetoolboxform.cpp">
+      <Filter>Generated Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\BrainSuite16a1_vs\Debug\moc_pialsurfacethread.cpp">
-      <Filter>Generated Files\Debug</Filter>
+    <ClCompile Include="..\..\BrainSuite16a1_vs\GeneratedFiles\moc_corticalextractionsequencedialog.cpp">
+      <Filter>Generated Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\BrainSuite16a1_vs\Debug\moc_pialsurfacethreaddialog.cpp">
-      <Filter>Generated Files\Debug</Filter>
+    <ClCompile Include="..\..\BrainSuite16a1_vs\GeneratedFiles\moc_cortexidentificationdialog.cpp">
+      <Filter>Generated Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\BrainSuite16a1_vs\Debug\moc_processingthreaddialog.cpp">
-      <Filter>Generated Files\Debug</Filter>
+    <ClCompile Include="..\..\BrainSuite16a1_vs\GeneratedFiles\moc_consoletext.cpp">
+      <Filter>Generated Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\BrainSuite16a1_vs\Debug\moc_registrationprocessdialog.cpp">
-      <Filter>Generated Files\Debug</Filter>
+    <ClCompile Include="..\..\BrainSuite16a1_vs\GeneratedFiles\moc_connectivityviewdialog.cpp">
+      <Filter>Generated Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\BrainSuite16a1_vs\Debug\moc_scrubmaskdialog.cpp">
-      <Filter>Generated Files\Debug</Filter>
+    <ClCompile Include="..\..\BrainSuite16a1_vs\GeneratedFiles\moc_computeconnectivitythreaddialog.cpp">
+      <Filter>Generated Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\BrainSuite16a1_vs\Debug\moc_skullandscalpdialog.cpp">
-      <Filter>Generated Files\Debug</Filter>
+    <ClCompile Include="..\..\BrainSuite16a1_vs\GeneratedFiles\moc_computeconnectivitythread.cpp">
+      <Filter>Generated Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\BrainSuite16a1_vs\Debug\moc_skullstrippingdialog.cpp">
-      <Filter>Generated Files\Debug</Filter>
+    <ClCompile Include="..\..\BrainSuite16a1_vs\GeneratedFiles\moc_colorselectionbutton.cpp">
+      <Filter>Generated Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\BrainSuite16a1_vs\Debug\moc_splithemispheresdialog.cpp">
-      <Filter>Generated Files\Debug</Filter>
+    <ClCompile Include="..\..\BrainSuite16a1_vs\GeneratedFiles\moc_clicklabel.cpp">
+      <Filter>Generated Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\BrainSuite16a1_vs\Debug\moc_surfacedisplayform.cpp">
-      <Filter>Generated Files\Debug</Filter>
+    <ClCompile Include="..\..\BrainSuite16a1_vs\GeneratedFiles\moc_cerebrumextractiondialog.cpp">
+      <Filter>Generated Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\BrainSuite16a1_vs\Debug\moc_surfacelabelprocess.cpp">
-      <Filter>Generated Files\Debug</Filter>
+    <ClCompile Include="..\..\BrainSuite16a1_vs\GeneratedFiles\moc_brainsuitewindow.cpp">
+      <Filter>Generated Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\BrainSuite16a1_vs\Debug\moc_svregistrationdialog.cpp">
-      <Filter>Generated Files\Debug</Filter>
+    <ClCompile Include="..\..\BrainSuite16a1_vs\GeneratedFiles\moc_brainsuiteinstalldialog.cpp">
+      <Filter>Generated Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\BrainSuite16a1_vs\Debug\moc_tissueclassificationdialog.cpp">
-      <Filter>Generated Files\Debug</Filter>
+    <ClCompile Include="..\..\BrainSuite16a1_vs\GeneratedFiles\moc_biasfieldcorrectionthread.cpp">
+      <Filter>Generated Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\BrainSuite16a1_vs\Debug\moc_topologicalcorrectiondialog.cpp">
-      <Filter>Generated Files\Debug</Filter>
+    <ClCompile Include="..\..\BrainSuite16a1_vs\GeneratedFiles\moc_bfcthreaddialog.cpp">
+      <Filter>Generated Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\BrainSuite16a1_vs\Debug\moc_welcomesplashpage.cpp">
-      <Filter>Generated Files\Debug</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\BrainSuite16a1_vs\Release\moc_aboutbrainsuitedialog.cpp">
-      <Filter>Generated Files\Release</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\BrainSuite16a1_vs\Release\moc_bfcthreaddialog.cpp">
-      <Filter>Generated Files\Release</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\BrainSuite16a1_vs\Release\moc_biasfieldcorrectionthread.cpp">
-      <Filter>Generated Files\Release</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\BrainSuite16a1_vs\Release\moc_brainsuiteinstalldialog.cpp">
-      <Filter>Generated Files\Release</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\BrainSuite16a1_vs\Release\moc_brainsuitewindow.cpp">
-      <Filter>Generated Files\Release</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\BrainSuite16a1_vs\Release\moc_cerebrumextractiondialog.cpp">
-      <Filter>Generated Files\Release</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\BrainSuite16a1_vs\Release\moc_clicklabel.cpp">
-      <Filter>Generated Files\Release</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\BrainSuite16a1_vs\Release\moc_colorselectionbutton.cpp">
-      <Filter>Generated Files\Release</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\BrainSuite16a1_vs\Release\moc_computeconnectivitythread.cpp">
-      <Filter>Generated Files\Release</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\BrainSuite16a1_vs\Release\moc_computeconnectivitythreaddialog.cpp">
-      <Filter>Generated Files\Release</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\BrainSuite16a1_vs\Release\moc_connectivityviewdialog.cpp">
-      <Filter>Generated Files\Release</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\BrainSuite16a1_vs\Release\moc_consoletext.cpp">
-      <Filter>Generated Files\Release</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\BrainSuite16a1_vs\Release\moc_cortexidentificationdialog.cpp">
-      <Filter>Generated Files\Release</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\BrainSuite16a1_vs\Release\moc_corticalextractionsequencedialog.cpp">
-      <Filter>Generated Files\Release</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\BrainSuite16a1_vs\Release\moc_curvetoolboxform.cpp">
-      <Filter>Generated Files\Release</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\BrainSuite16a1_vs\Release\moc_delineationtoolboxform.cpp">
-      <Filter>Generated Files\Release</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\BrainSuite16a1_vs\Release\moc_dewispdialog.cpp">
-      <Filter>Generated Files\Release</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\BrainSuite16a1_vs\Release\moc_diffusiontoolboxform.cpp">
-      <Filter>Generated Files\Release</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\BrainSuite16a1_vs\Release\moc_dsfilelabel.cpp">
-      <Filter>Generated Files\Release</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\BrainSuite16a1_vs\Release\moc_dsfilepathbutton.cpp">
-      <Filter>Generated Files\Release</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\BrainSuite16a1_vs\Release\moc_dsglviewdialog.cpp">
-      <Filter>Generated Files\Release</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\BrainSuite16a1_vs\Release\moc_dsglwidget.cpp">
-      <Filter>Generated Files\Release</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\BrainSuite16a1_vs\Release\moc_dsimagerangecontrol.cpp">
-      <Filter>Generated Files\Release</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\BrainSuite16a1_vs\Release\moc_dsrangeslider.cpp">
-      <Filter>Generated Files\Release</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\BrainSuite16a1_vs\Release\moc_dualregistrationprocess.cpp">
-      <Filter>Generated Files\Release</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\BrainSuite16a1_vs\Release\moc_dualregistrationprocessdialog.cpp">
-      <Filter>Generated Files\Release</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\BrainSuite16a1_vs\Release\moc_filedownloader.cpp">
-      <Filter>Generated Files\Release</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\BrainSuite16a1_vs\Release\moc_floatslider.cpp">
-      <Filter>Generated Files\Release</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\BrainSuite16a1_vs\Release\moc_gotocoordinatedialog.cpp">
-      <Filter>Generated Files\Release</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\BrainSuite16a1_vs\Release\moc_imagedisplaypropertiesform.cpp">
-      <Filter>Generated Files\Release</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\BrainSuite16a1_vs\Release\moc_imageframe.cpp">
-      <Filter>Generated Files\Release</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\BrainSuite16a1_vs\Release\moc_imagewidget.cpp">
-      <Filter>Generated Files\Release</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\BrainSuite16a1_vs\Release\moc_innercorticalsurfacedialog.cpp">
-      <Filter>Generated Files\Release</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\BrainSuite16a1_vs\Release\moc_nonuniformitycorrectiondialog.cpp">
-      <Filter>Generated Files\Release</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\BrainSuite16a1_vs\Release\moc_pialsurfacedialog.cpp">
-      <Filter>Generated Files\Release</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\BrainSuite16a1_vs\Release\moc_pialsurfacethread.cpp">
-      <Filter>Generated Files\Release</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\BrainSuite16a1_vs\Release\moc_pialsurfacethreaddialog.cpp">
-      <Filter>Generated Files\Release</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\BrainSuite16a1_vs\Release\moc_processingthreaddialog.cpp">
-      <Filter>Generated Files\Release</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\BrainSuite16a1_vs\Release\moc_registrationprocessdialog.cpp">
-      <Filter>Generated Files\Release</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\BrainSuite16a1_vs\Release\moc_scrubmaskdialog.cpp">
-      <Filter>Generated Files\Release</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\BrainSuite16a1_vs\Release\moc_skullandscalpdialog.cpp">
-      <Filter>Generated Files\Release</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\BrainSuite16a1_vs\Release\moc_skullstrippingdialog.cpp">
-      <Filter>Generated Files\Release</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\BrainSuite16a1_vs\Release\moc_splithemispheresdialog.cpp">
-      <Filter>Generated Files\Release</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\BrainSuite16a1_vs\Release\moc_surfacedisplayform.cpp">
-      <Filter>Generated Files\Release</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\BrainSuite16a1_vs\Release\moc_surfacelabelprocess.cpp">
-      <Filter>Generated Files\Release</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\BrainSuite16a1_vs\Release\moc_svregistrationdialog.cpp">
-      <Filter>Generated Files\Release</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\BrainSuite16a1_vs\Release\moc_tissueclassificationdialog.cpp">
-      <Filter>Generated Files\Release</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\BrainSuite16a1_vs\Release\moc_topologicalcorrectiondialog.cpp">
-      <Filter>Generated Files\Release</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\BrainSuite16a1_vs\Release\moc_welcomesplashpage.cpp">
-      <Filter>Generated Files\Release</Filter>
+    <ClCompile Include="..\..\BrainSuite16a1_vs\GeneratedFiles\moc_aboutbrainsuitedialog.cpp">
+      <Filter>Generated Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -1709,103 +1552,103 @@
     <ResourceCompile Include="brainsuiteico.rc" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="GeneratedFiles\ui_aboutbrainsuitedialog.h">
+    <ClInclude Include="..\..\BrainSuite16a1_vs\GeneratedFiles\ui_aboutbrainsuitedialog.h">
       <Filter>Generated Files</Filter>
     </ClInclude>
-    <ClInclude Include="GeneratedFiles\ui_bfcthreaddialog.h">
+    <ClInclude Include="..\..\BrainSuite16a1_vs\GeneratedFiles\ui_bfcthreaddialog.h">
       <Filter>Generated Files</Filter>
     </ClInclude>
-    <ClInclude Include="GeneratedFiles\ui_brainsuiteinstalldialog.h">
+    <ClInclude Include="..\..\BrainSuite16a1_vs\GeneratedFiles\ui_brainsuiteinstalldialog.h">
       <Filter>Generated Files</Filter>
     </ClInclude>
-    <ClInclude Include="GeneratedFiles\ui_brainsuitewindow.h">
+    <ClInclude Include="..\..\BrainSuite16a1_vs\GeneratedFiles\ui_brainsuitewindow.h">
       <Filter>Generated Files</Filter>
     </ClInclude>
-    <ClInclude Include="GeneratedFiles\ui_cerebrumextractiondialog.h">
+    <ClInclude Include="..\..\BrainSuite16a1_vs\GeneratedFiles\ui_cerebrumextractiondialog.h">
       <Filter>Generated Files</Filter>
     </ClInclude>
-    <ClInclude Include="GeneratedFiles\ui_computeconnectivitythreaddialog.h">
+    <ClInclude Include="..\..\BrainSuite16a1_vs\GeneratedFiles\ui_computeconnectivitythreaddialog.h">
       <Filter>Generated Files</Filter>
     </ClInclude>
-    <ClInclude Include="GeneratedFiles\ui_connectivityviewdialog.h">
+    <ClInclude Include="..\..\BrainSuite16a1_vs\GeneratedFiles\ui_connectivityviewdialog.h">
       <Filter>Generated Files</Filter>
     </ClInclude>
-    <ClInclude Include="GeneratedFiles\ui_cortexidentificationdialog.h">
+    <ClInclude Include="..\..\BrainSuite16a1_vs\GeneratedFiles\ui_cortexidentificationdialog.h">
       <Filter>Generated Files</Filter>
     </ClInclude>
-    <ClInclude Include="GeneratedFiles\ui_corticalextractionsequencedialog.h">
+    <ClInclude Include="..\..\BrainSuite16a1_vs\GeneratedFiles\ui_corticalextractionsequencedialog.h">
       <Filter>Generated Files</Filter>
     </ClInclude>
-    <ClInclude Include="GeneratedFiles\ui_curvetoolboxform.h">
+    <ClInclude Include="..\..\BrainSuite16a1_vs\GeneratedFiles\ui_curvetoolboxform.h">
       <Filter>Generated Files</Filter>
     </ClInclude>
-    <ClInclude Include="GeneratedFiles\ui_delineationtoolboxform.h">
+    <ClInclude Include="..\..\BrainSuite16a1_vs\GeneratedFiles\ui_delineationtoolboxform.h">
       <Filter>Generated Files</Filter>
     </ClInclude>
-    <ClInclude Include="GeneratedFiles\ui_dewispdialog.h">
+    <ClInclude Include="..\..\BrainSuite16a1_vs\GeneratedFiles\ui_dewispdialog.h">
       <Filter>Generated Files</Filter>
     </ClInclude>
-    <ClInclude Include="GeneratedFiles\ui_diffusiontoolboxform.h">
+    <ClInclude Include="..\..\BrainSuite16a1_vs\GeneratedFiles\ui_diffusiontoolboxform.h">
       <Filter>Generated Files</Filter>
     </ClInclude>
-    <ClInclude Include="GeneratedFiles\ui_dsglviewdialog.h">
+    <ClInclude Include="..\..\BrainSuite16a1_vs\GeneratedFiles\ui_dsglviewdialog.h">
       <Filter>Generated Files</Filter>
     </ClInclude>
-    <ClInclude Include="GeneratedFiles\ui_dualregistrationprocessdialog.h">
+    <ClInclude Include="..\..\BrainSuite16a1_vs\GeneratedFiles\ui_dualregistrationprocessdialog.h">
       <Filter>Generated Files</Filter>
     </ClInclude>
-    <ClInclude Include="GeneratedFiles\ui_gotocoordinatedialog.h">
+    <ClInclude Include="..\..\BrainSuite16a1_vs\GeneratedFiles\ui_gotocoordinatedialog.h">
       <Filter>Generated Files</Filter>
     </ClInclude>
-    <ClInclude Include="GeneratedFiles\ui_imagedisplaypropertiesform.h">
+    <ClInclude Include="..\..\BrainSuite16a1_vs\GeneratedFiles\ui_imagedisplaypropertiesform.h">
       <Filter>Generated Files</Filter>
     </ClInclude>
-    <ClInclude Include="GeneratedFiles\ui_imageframe.h">
+    <ClInclude Include="..\..\BrainSuite16a1_vs\GeneratedFiles\ui_imageframe.h">
       <Filter>Generated Files</Filter>
     </ClInclude>
-    <ClInclude Include="GeneratedFiles\ui_innercorticalsurfacedialog.h">
+    <ClInclude Include="..\..\BrainSuite16a1_vs\GeneratedFiles\ui_innercorticalsurfacedialog.h">
       <Filter>Generated Files</Filter>
     </ClInclude>
-    <ClInclude Include="GeneratedFiles\ui_nonuniformitycorrectiondialog.h">
+    <ClInclude Include="..\..\BrainSuite16a1_vs\GeneratedFiles\ui_nonuniformitycorrectiondialog.h">
       <Filter>Generated Files</Filter>
     </ClInclude>
-    <ClInclude Include="GeneratedFiles\ui_pialsurfacedialog.h">
+    <ClInclude Include="..\..\BrainSuite16a1_vs\GeneratedFiles\ui_pialsurfacedialog.h">
       <Filter>Generated Files</Filter>
     </ClInclude>
-    <ClInclude Include="GeneratedFiles\ui_pialsurfacethreaddialog.h">
+    <ClInclude Include="..\..\BrainSuite16a1_vs\GeneratedFiles\ui_pialsurfacethreaddialog.h">
       <Filter>Generated Files</Filter>
     </ClInclude>
-    <ClInclude Include="GeneratedFiles\ui_processingthreaddialog.h">
+    <ClInclude Include="..\..\BrainSuite16a1_vs\GeneratedFiles\ui_processingthreaddialog.h">
       <Filter>Generated Files</Filter>
     </ClInclude>
-    <ClInclude Include="GeneratedFiles\ui_registrationprocessdialog.h">
+    <ClInclude Include="..\..\BrainSuite16a1_vs\GeneratedFiles\ui_registrationprocessdialog.h">
       <Filter>Generated Files</Filter>
     </ClInclude>
-    <ClInclude Include="GeneratedFiles\ui_scrubmaskdialog.h">
+    <ClInclude Include="..\..\BrainSuite16a1_vs\GeneratedFiles\ui_scrubmaskdialog.h">
       <Filter>Generated Files</Filter>
     </ClInclude>
-    <ClInclude Include="GeneratedFiles\ui_skullandscalpdialog.h">
+    <ClInclude Include="..\..\BrainSuite16a1_vs\GeneratedFiles\ui_skullandscalpdialog.h">
       <Filter>Generated Files</Filter>
     </ClInclude>
-    <ClInclude Include="GeneratedFiles\ui_skullstrippingdialog.h">
+    <ClInclude Include="..\..\BrainSuite16a1_vs\GeneratedFiles\ui_skullstrippingdialog.h">
       <Filter>Generated Files</Filter>
     </ClInclude>
-    <ClInclude Include="GeneratedFiles\ui_splithemispheresdialog.h">
+    <ClInclude Include="..\..\BrainSuite16a1_vs\GeneratedFiles\ui_splithemispheresdialog.h">
       <Filter>Generated Files</Filter>
     </ClInclude>
-    <ClInclude Include="GeneratedFiles\ui_surfacedisplayform.h">
+    <ClInclude Include="..\..\BrainSuite16a1_vs\GeneratedFiles\ui_surfacedisplayform.h">
       <Filter>Generated Files</Filter>
     </ClInclude>
-    <ClInclude Include="GeneratedFiles\ui_svregistrationdialog.h">
+    <ClInclude Include="..\..\BrainSuite16a1_vs\GeneratedFiles\ui_svregistrationdialog.h">
       <Filter>Generated Files</Filter>
     </ClInclude>
-    <ClInclude Include="GeneratedFiles\ui_tissueclassificationdialog.h">
+    <ClInclude Include="..\..\BrainSuite16a1_vs\GeneratedFiles\ui_tissueclassificationdialog.h">
       <Filter>Generated Files</Filter>
     </ClInclude>
-    <ClInclude Include="GeneratedFiles\ui_topologicalcorrectiondialog.h">
+    <ClInclude Include="..\..\BrainSuite16a1_vs\GeneratedFiles\ui_topologicalcorrectiondialog.h">
       <Filter>Generated Files</Filter>
     </ClInclude>
-    <ClInclude Include="GeneratedFiles\ui_welcomesplashpage.h">
+    <ClInclude Include="..\..\BrainSuite16a1_vs\GeneratedFiles\ui_welcomesplashpage.h">
       <Filter>Generated Files</Filter>
     </ClInclude>
   </ItemGroup>

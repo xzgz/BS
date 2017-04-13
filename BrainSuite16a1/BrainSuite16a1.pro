@@ -59,23 +59,23 @@ INCLUDEPATH += $$PWD/../3rdParty/zlib-1.2.8
 DEFINES += "_AFXDLL"
 DEFINES += "ZLIB_WINAPI"
 DEFINES += "_USE_MATH_DEFINES"
-LIBDIR=$$PWD/../../lib/
+LIBDIR = $$PWD/../../lib/
 !contains(QMAKE_HOST.arch, x86_64) {
 ## Windows x86 (32bit) specific build here
-		message("x86 build")
-		QMAKE_LFLAGS_RELEASE += /LARGEADDRESSAWARE
-		DEFINES += "QT_X86_32"
-		LIBS += -L$${LIBDIR}win32/$${PLATFORMTOOLSET}
-		CONFIG(release, debug|release): LIBS += -lzlib_Win32_MD
-		else:CONFIG(debug, debug|release): LIBS += -lzlib_Win32_MDd
-	} else {
+                message("x86 build")
+                QMAKE_LFLAGS_RELEASE += /LARGEADDRESSAWARE
+                DEFINES += "QT_X86_32"
+                LIBS += -L$${LIBDIR}win32/$${PLATFORMTOOLSET}
+                CONFIG(release, debug|release): LIBS += -lzlib_Win32_MD
+                else:CONFIG(debug, debug|release): LIBS += -lzlib_Win32_MDd
+        } else {
 ## Windows x64 (64bit) specific build here
-		message("x86_64 build")
-		DEFINES += "QT_X86_64"
-		LIBS += -L$${LIBDIR}x64/$${PLATFORMTOOLSET}
-		CONFIG(release, debug|release): LIBS += -lzlib_x64_MD
-		else:CONFIG(debug, debug|release): LIBS += -lzlib_x64_MDd
-	}
+                message("x86_64 build")
+                DEFINES += "QT_X86_64"
+                LIBS += -L$${LIBDIR}x64/$${PLATFORMTOOLSET}
+                CONFIG(release, debug|release): LIBS += -lzlib_x64_MD
+                else:CONFIG(debug, debug|release): LIBS += -lzlib_x64_MDd
+        }
 	QMAKE_LFLAGS_RELEASE += /LTCG
 } else {
 }
