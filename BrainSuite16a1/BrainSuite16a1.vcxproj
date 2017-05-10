@@ -1568,7 +1568,7 @@
   <ImportGroup Label="ExtensionTargets" />
   <ProjectExtensions>
     <VisualStudio>
-      <UserProperties MocDir=".\..\..\BrainSuite16a1_vs\GeneratedFiles" UicDir=".\..\..\BrainSuite16a1_vs\GeneratedFiles" RccDir=".\..\..\BrainSuite16a1_vs\GeneratedFiles" Qt5Version_x0020_Win32="msvc2013_opengl" />
+      <UserProperties MocDir=".\..\..\BrainSuite16a1_vs\GeneratedFiles" UicDir=".\..\..\BrainSuite16a1_vs\GeneratedFiles" RccDir=".\..\..\BrainSuite16a1_vs\GeneratedFiles" Qt5Version_x0020_Win32="Qt5.3.2" />
     </VisualStudio>
   </ProjectExtensions>
 </Project>
