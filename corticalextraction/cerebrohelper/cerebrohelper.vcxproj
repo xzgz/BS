@@ -328,7 +328,7 @@
     <Text Include="CMakeLists.txt" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{17F31710-40FC-4250-BFD9-47A11BB5D302}</ProjectGuid>
+    <ProjectGuid>{9B97C5B9-3F6E-3A53-94C2-74134BA7A826}</ProjectGuid>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
