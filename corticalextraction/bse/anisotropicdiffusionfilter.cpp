@@ -26,7 +26,7 @@ bool AnisotropicDiffusionFilter::filter(Vol3D<uint8> &vOut, const Vol3D<uint8> &
 {
   std::vector<float> C(3*255*255+1);
   for(int i=0; i<=3*255*255; i++)
-    C[i] = timestep*(float)exp((double)(-i) /(double)(diffusion*diffusion));
+    C[i] = timestep*(float)exp((double)(-i) / (double)(diffusion*diffusion));
   const int cx = vIn.cx;
   const int cy = vIn.cy;
   const int cz = vIn.cz;
@@ -65,29 +65,29 @@ bool AnisotropicDiffusionFilter::filter(Vol3D<uint8> &vOut, const Vol3D<uint8> &
         uint8 c0 = *cptr;
         Ce=C[(square(int(cptr[2]                           -c0))
            +square(int(cptr[yStride + 1]-cptr[- yStride + 1]))
-            +square(int(cptr[zStride + 1]-cptr[- zStride + 1])))];
+           +square(int(cptr[zStride + 1]-cptr[- zStride + 1])))];
         Cw=C[(square(int(c0               -cptr[-2           ]))
            +square(int(cptr[yStride - 1]-cptr[-yStride - 1]) )
-            +square(int(cptr[zStride - 1]-cptr[-zStride - 1]) ))];
+           +square(int(cptr[zStride - 1]-cptr[-zStride - 1]) ))];
         Cn=C[(square(int(cptr[2*yStride  ]-                 c0))
            +square(int(cptr[  yStride+1]-cptr[ yStride-1]))
-            +square(int(cptr[ zStride+yStride]-cptr[-zStride+yStride])))];
+           +square(int(cptr[ zStride+yStride]-cptr[-zStride+yStride])))];
         Cs=C[(square(int(c0-cptr[-2*yStride]))
            +square(int(cptr[-yStride+1]-cptr[-yStride-1]))
-            +square(int(cptr[ zStride-yStride]-cptr[-zStride-yStride])))];
+           +square(int(cptr[ zStride-yStride]-cptr[-zStride-yStride])))];
         Ct=C[(square(int(cptr[z2]-c0))
-              +square(int(cptr[ zStride+yStride]-cptr[ zStride-yStride]))
-            +square(int(cptr[ zStride+1]-cptr[ zStride-1])))];
+           +square(int(cptr[ zStride+yStride]-cptr[ zStride-yStride]))
+           +square(int(cptr[ zStride+1]-cptr[ zStride-1])))];
         Cb=C[(square(int(c0))
-              +square(int(cptr[-zStride+yStride]-cptr[-zStride-yStride]))
-            +square(int(cptr[-zStride+1]-cptr[-zStride-1])))];
-        Out[index2++] = c0 + (char)(
-                          (Ce*int(cptr[2]-c0)
-                          -Cw*int(c0-cptr[-2])
-                        +Cn*int(cptr[2*yStride]-c0)
-            -Cs*int(c0-cptr[-2*yStride])
-            +Ct*int(cptr[z2]-c0)
-            -Cb*int(c0)));
+           +square(int(cptr[-zStride+yStride]-cptr[-zStride-yStride]))
+           +square(int(cptr[-zStride+1]-cptr[-zStride-1])))];
+        Out[index2++] = c0 + (char)((
+                        Ce*int(cptr[2]-c0)
+                       -Cw*int(c0-cptr[-2])
+                       +Cn*int(cptr[2*yStride]-c0)
+                       -Cs*int(c0-cptr[-2*yStride])
+                       +Ct*int(cptr[z2]-c0)
+                       -Cb*int(c0)));
         cptr++;
       }
       cptr += 6;
@@ -102,31 +102,31 @@ bool AnisotropicDiffusionFilter::filter(Vol3D<uint8> &vOut, const Vol3D<uint8> &
         for (int j=3; j<Jmax; j++)
         {
           uint8 c0 = *cptr;
-          Ce= C[square(int(cptr[2]                           -c0))
-              +square(int(cptr[yStride + 1]-cptr[- yStride + 1]))
-              +square(int(cptr[zStride + 1]-cptr[- zStride + 1]))];
+          Ce=C[square(int(cptr[2]                           -c0))
+             +square(int(cptr[yStride + 1]-cptr[- yStride + 1]))
+             +square(int(cptr[zStride + 1]-cptr[- zStride + 1]))];
           Cw=C[square(int(c0               -cptr[-2           ]))
-              +square(int(cptr[yStride - 1]-cptr[-yStride - 1]))
-              +square(int(cptr[zStride - 1]-cptr[-zStride - 1]))];
+             +square(int(cptr[yStride - 1]-cptr[-yStride - 1]))
+             +square(int(cptr[zStride - 1]-cptr[-zStride - 1]))];
           Cn=C[square(int(cptr[2*yStride  ]-                 c0))
-              +square(int(cptr[  yStride+1]-cptr[ yStride-1]))
-              +square(int(cptr[ zStride+yStride]-cptr[-zStride+yStride]))];
+             +square(int(cptr[  yStride+1]-cptr[ yStride-1]))
+             +square(int(cptr[ zStride+yStride]-cptr[-zStride+yStride]))];
           Cs=C[square(int(c0-cptr[-2*yStride]))
-              +square(int(cptr[-yStride+1]-cptr[-yStride-1]))
-              +square(int(cptr[ zStride-yStride]-cptr[-zStride-yStride]))];
+             +square(int(cptr[-yStride+1]-cptr[-yStride-1]))
+             +square(int(cptr[ zStride-yStride]-cptr[-zStride-yStride]))];
           Ct=C[square(int(cptr[z2]-c0))
              +square(int(cptr[ zStride+yStride]-cptr[ zStride-yStride]))
-              +square(int(cptr[ zStride+1]-cptr[ zStride-1]))];
+             +square(int(cptr[ zStride+1]-cptr[ zStride-1]))];
           Cb=C[square(int(c0-cptr[-z2]))
-              +square(int(cptr[-zStride+yStride]-cptr[-zStride-yStride]))
-              +square(int(cptr[-zStride+1]-cptr[-zStride-1]))];
-          Out[index2++] = c0 + (char)(
-                            (Ce*int(cptr[2]-c0)
-                            -Cw*int(c0-cptr[-2])
-                          +Cn*int(cptr[2*yStride]-c0)
-              -Cs*int(c0-cptr[-2*yStride])
-              +Ct*int(cptr[z2]-c0)
-              -Cb*int(c0-cptr[-z2])));
+             +square(int(cptr[-zStride+yStride]-cptr[-zStride-yStride]))
+             +square(int(cptr[-zStride+1]-cptr[-zStride-1]))];
+          Out[index2++] = c0 + (char)((
+                          Ce*int(cptr[2]-c0)
+                         -Cw*int(c0-cptr[-2])
+                         +Cn*int(cptr[2*yStride]-c0)
+                         -Cs*int(c0-cptr[-2*yStride])
+                         +Ct*int(cptr[z2]-c0)
+                         -Cb*int(c0-cptr[-z2])));
           cptr++;
         }
         cptr += 6;
@@ -142,29 +142,29 @@ bool AnisotropicDiffusionFilter::filter(Vol3D<uint8> &vOut, const Vol3D<uint8> &
         uint8 c0 = *cptr;
         Ce=C[(square(int(cptr[2]                           -c0))
            +square(int(cptr[yStride + 1]-cptr[- yStride + 1]))
-            +square(int(cptr[zStride + 1]-cptr[- zStride + 1])))];
+           +square(int(cptr[zStride + 1]-cptr[- zStride + 1])))];
         Cw=C[(square(int(c0               -cptr[-2           ]))
            +square(int(cptr[yStride - 1]-cptr[-yStride - 1]) )
-            +square(int(cptr[zStride - 1]-cptr[-zStride - 1]) ))];
+           +square(int(cptr[zStride - 1]-cptr[-zStride - 1]) ))];
         Cn=C[(square(int(cptr[2*yStride  ]-                 c0))
            +square(int(cptr[  yStride+1]-cptr[ yStride-1]))
-            +square(int(cptr[ zStride+yStride]-cptr[-zStride+yStride])))];
+           +square(int(cptr[ zStride+yStride]-cptr[-zStride+yStride])))];
         Cs=C[(square(int(c0-cptr[-2*yStride]))
            +square(int(cptr[-yStride+1]-cptr[-yStride-1]))
-            +square(int(cptr[ zStride-yStride]-cptr[-zStride-yStride])))];
+           +square(int(cptr[ zStride-yStride]-cptr[-zStride-yStride])))];
         Ct=C[(square(int(c0))
-              +square(int(cptr[ zStride+yStride]-cptr[ zStride-yStride]))
-            +square(int(cptr[ zStride+1]-cptr[ zStride-1])))];
+           +square(int(cptr[ zStride+yStride]-cptr[ zStride-yStride]))
+           +square(int(cptr[ zStride+1]-cptr[ zStride-1])))];
         Cb=C[(square(int(c0-cptr[-z2]))
            +square(int(cptr[-zStride+yStride]-cptr[-zStride-yStride]))
-            +square(int(cptr[-zStride+1]-cptr[-zStride-1])))];
-        Out[index2++] = c0 + (char)(
-                          (Ce*int(cptr[2]-c0)
-                          -Cw*int(c0-cptr[-2])
-                        +Cn*int(cptr[2*yStride]-c0)
-            -Cs*int(c0-cptr[-2*yStride])
-            +Ct*int(-c0)
-            -Cb*int(c0-cptr[-z2])));
+           +square(int(cptr[-zStride+1]-cptr[-zStride-1])))];
+        Out[index2++] = c0 + (char)((
+                        Ce*int(cptr[2]-c0)
+                       -Cw*int(c0-cptr[-2])
+                       +Cn*int(cptr[2*yStride]-c0)
+                       -Cs*int(c0-cptr[-2*yStride])
+                       +Ct*int(-c0)
+                       -Cb*int(c0-cptr[-z2])));
         cptr++;
       }
       cptr += 6;
