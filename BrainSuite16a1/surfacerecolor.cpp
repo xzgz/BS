@@ -537,17 +537,29 @@ bool surfaceRecolor(SurfaceAlpha *surface, const int recolorChoice, BrainSuiteWi
         float *va = &surface->vertexAttributes[0];
 
         #define     colorNum        10
-        float range = 2.5f;
-        float colorTable[colorNum][3];
-        float dr = 94.0f/(colorNum * 255);
-        float dg = 38.0f/(colorNum * 255);
-        float db = (18.0f - 255.0f)/(colorNum * 255);
-        for(int i = 0; i < colorNum; i++)
+        float range = 3.0f;
+        float colorTable[colorNum][3] =
         {
-            colorTable[i][0] = (i + 1) * dr;
-            colorTable[i][1] = (i + 1) * dg;
-            colorTable[i][2] = 1.0f + (i + 1) * db;
-        }
+            0.000000, 0.003922, 0.803922,
+            0.003922, 0.184314, 1.000000,
+            0.000000, 0.572549, 0.996078,
+            0.007843, 0.984314, 0.992157,
+            0.368627, 1.000000, 0.635294,
+            0.756863, 1.000000, 0.250980,
+            0.992157, 0.866667, 0.000000,
+            1.000000, 0.478431, 0.003922,
+            0.988235, 0.066667, 0.000000,
+            0.690196, 0.000000, 0.000000,
+        };
+//        float dr = 94.0f/(colorNum * 255);
+//        float dg = 38.0f/(colorNum * 255);
+//        float db = (18.0f - 255.0f)/(colorNum * 255);
+//        for(int i = 0; i < colorNum; i++)
+//        {
+//            colorTable[i][0] = (i + 1) * dr;
+//            colorTable[i][1] = (i + 1) * dg;
+//            colorTable[i][2] = 1.0f + (i + 1) * db;
+//        }
         float sum = std::accumulate(va, va + nv, 0);
         float mean = sum/nv;
         float accum = 0;
@@ -558,6 +570,8 @@ bool surfaceRecolor(SurfaceAlpha *surface, const int recolorChoice, BrainSuiteWi
         float stdev = sqrt(accum/(nv - 1));
         float maxThickness = mean + range * stdev;
         float minThickness = mean - range * stdev;
+//        float maxThickness = *std::max_element(va, va + nv);
+//        float minThickness = *std::min_element(va, va + nv);
         float ratio = colorNum/(maxThickness - minThickness);
         for (size_t i=0;i<nv;i++)
         {
