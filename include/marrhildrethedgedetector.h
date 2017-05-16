@@ -193,16 +193,17 @@ public:
           const int shift = yStride * (-halfWindow + 1);
           for (int j = jStart; j < jStop; j++, index++, index2++)
           {
-            sliceB[index2] = (float)std::inner_product(Gauss.begin(),Gauss.end(),stride_iter<float *>(&imageOut[index + shift],yStride),0.0);
-            sliceA[index2] = (float)std::inner_product(Gauss2p.begin(),Gauss2p.end(),stride_iter<float *>(&imageOut[index + shift],yStride),0.0);
+            sliceB[index2] = (float)std::inner_product(Gauss.begin(), Gauss.end(), stride_iter<float *>(&imageOut[index + shift], yStride), 0.0);
+            sliceA[index2] = (float)std::inner_product(Gauss2p.begin(), Gauss2p.end(), stride_iter<float *>(&imageOut[index + shift], yStride), 0.0);
           }
         }
+
         // calculate (G[x]*G"[y]*G[z]*I)
-        for (int i=Imin+halfWindow-1; i<iMax-halfWindow+1; i++)
+        for (int i = Imin + halfWindow - 1; i < iMax - halfWindow + 1; i++)
         {
-          int index = Idx(k,i,jMin+halfWindow-1);
-          int index2 = Idx(0,i,jMin);
-          for (int j=jStart; j<jStop; j++, index++, index2++)
+          int index = Idx(k, i, jMin + halfWindow - 1);
+          int index2 = Idx(0, i, jMin);
+          for (int j = jStart; j < jStop; j++, index++, index2++)
           {
             imageOut[index] = (float)std::inner_product(Gauss.begin(),Gauss.end(),sliceA.begin()+index2,0.0);
           }

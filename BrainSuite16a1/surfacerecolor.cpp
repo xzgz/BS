@@ -535,9 +535,38 @@ bool surfaceRecolor(SurfaceAlpha *surface, const int recolorChoice, BrainSuiteWi
         surface->vertexColor.resize(nv);
         DSPoint *c = &surface->vertexColor[0];
         float *va = &surface->vertexAttributes[0];
+
+        #define     colorNum        10
+        float range = 2.5f;
+        float colorTable[colorNum][3];
+        float dr = 94.0f/(colorNum * 255);
+        float dg = 38.0f/(colorNum * 255);
+        float db = (18.0f - 255.0f)/(colorNum * 255);
+        for(int i = 0; i < colorNum; i++)
+        {
+            colorTable[i][0] = (i + 1) * dr;
+            colorTable[i][1] = (i + 1) * dg;
+            colorTable[i][2] = 1.0f + (i + 1) * db;
+        }
+        float sum = std::accumulate(va, va + nv, 0);
+        float mean = sum/nv;
+        float accum = 0;
+        std::for_each(va, va + nv, [&](float v)
+        {
+            accum += (v - mean) * (v - mean);
+        });
+        float stdev = sqrt(accum/(nv - 1));
+        float maxThickness = mean + range * stdev;
+        float minThickness = mean - range * stdev;
+        float ratio = colorNum/(maxThickness - minThickness);
         for (size_t i=0;i<nv;i++)
         {
-          c[i] = rgb2pt(imageLUT[clamp8(255*va[i])]);
+          (va[i] > maxThickness) ? (va[i] = maxThickness) : ((va[i] < minThickness) ? (va[i] = minThickness) : (1));
+          int index = (va[i] - minThickness) * ratio;
+          (index > colorNum - 1) ? (index = colorNum - 1) : (1);
+          c[i] = DSPoint(colorTable[index][0], colorTable[index][1], colorTable[index][2]);
+//          c[i] = DSPoint(94.0f/255, 38.0f/255, 18.0f/255);
+//          c[i] = rgb2pt(imageLUT[clamp8(255*va[i])]);
         }
         surface->useSolidColor = false;
         surface->useVertexColor = true;

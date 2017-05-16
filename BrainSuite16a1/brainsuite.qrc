@@ -1,11 +1,11 @@
 <RCC>
     <qresource prefix="/atlas">
-        <!--<file>atlas/brainsuite.icbm452.lpi.v08a.hdr</file>
+        <file>atlas/brainsuite.icbm452.lpi.v08a.hdr</file>
         <file>atlas/brainsuite.icbm452.lpi.v08a.img</file>
         <file>atlas/brainsuite.icbm452.lpi.v09e3.label.hdr</file>
         <file>atlas/brainsuite.icbm452.lpi.v09e3.label.img</file>
         <file>atlas/brainsuite.icbm452.v15a.label.hdr</file>
-        <file>atlas/brainsuite.icbm452.v15a.label.img</file>-->
+        <file>atlas/brainsuite.icbm452.v15a.label.img</file>
     </qresource>
     <qresource prefix="/images">
         <file>images/mask_icon.png</file>
